@@ -5,7 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Cat } from './entities/cat.entity';
 import { Repository } from 'typeorm';
 import { Breed } from '../breeds/entities/breed.entity';
-import { UserActiveInterface } from 'src/common/interface/user-active.interface';
+import { UserActiveInterface } from '../common/interface/user-active.interface';
 
 @Injectable()
 export class CatsService {
